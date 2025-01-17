@@ -46,8 +46,8 @@ const urlFor = (source)=>{
     return builder.image(source);
 };
 const config = {
-    projectId: "hwqw748q",
-    dataset: "satch_data",
+    projectId: "4ppfjuhw",
+    dataset: "production",
     apiVersion: "2024-11-14"
 };
 const __TURBOPACK__default__export__ = config;
@@ -70,8 +70,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$
 ;
 async function getProjects() {
     const client = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])({
-        projectId: "hwqw748q",
-        dataset: "satch_data",
+        projectId: "4ppfjuhw",
+        dataset: "production",
         apiVersion: "2024-11-14"
     });
     return (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$sanity$2f$client$2f$dist$2f$index$2e$browser$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createClient"])(__TURBOPACK__imported__module__$5b$project$5d2f$sanity$2f$config$2f$client$2d$config$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"]).fetch(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$groq$2f$lib$2f$groq$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__$3c$export__default__as__groq$3e$__["groq"]`*[_type== "project"]{
