@@ -13,9 +13,9 @@ export const urlFor = (source: SanityImageSource) => {
 };
 
 const config = {
-  projectId: "hwqw748q",
+  projectId: "4ppfjuhw",
 
-  dataset: "satch_data",
+  dataset: "production",
 
   apiVersion: "2024-11-14",
 };

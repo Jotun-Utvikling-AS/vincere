@@ -5,9 +5,9 @@ import { Page } from "@/types/Page";
 
 export async function getProjects(): Promise<Project[]> {
   const client = createClient({
-    projectId: "hwqw748q",
+    projectId: "4ppfjuhw",
 
-    dataset: "satch_data",
+    dataset: "production",
 
     apiVersion: "2024-11-14",
   });
